@@ -1,0 +1,14 @@
+import java.util.*;
+ 
+public class Main {
+    public static void main(String[] args) {
+         Scanner sc=new Scanner(System.in);
+         long b=sc.nextLong();
+         long c=sc.nextLong();
+         long d=sc.nextLong();
+         long e=(long)Math.ceil((double)(b/d));
+         long f=(long)Math.ceil((double)(c/d));
+         
+         System.out.print(e*f);
+    }
+}
