@@ -1,0 +1,23 @@
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+         Scanner sc=new Scanner(System.in);
+         int a=sc.nextInt();
+         while(a-->0){
+             String b=sc.next();
+             int l=b.length();
+             if(l>10){
+                 char ch=b.charAt(0);
+                 char ch1=b.charAt(l-1);
+            
+                 System.out.print(ch);
+                 System.out.print(l-2);
+                 System.out.print(ch1);
+                 }
+             else{
+                 System.out.print(b);
+             }
+         }
+    }
+}
